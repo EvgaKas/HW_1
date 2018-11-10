@@ -1,0 +1,46 @@
+section#home{
+ margin-bottom: 40px;
+}
+section{
+  border: 10px solid red;
+  text-align: center;
+  margin: 20px;
+}
+
+section#about{
+ margin-bottom: 40px;
+}
+
+section#about > div{
+  display: inline-block;
+  border: 10px solid green;
+  background-color: blue;
+  color: white;
+  font-size: 100px;
+  width: 200px;
+  margin:0px 20px;
+}
+
+section#portfolio{
+  padding: 50px 20px;
+  margin-bottom: 45px;
+}
+
+section#portfolio > div{
+  display: inline-block;
+  border: 10px solid green;
+  background-color: blue;
+  color: white;
+  font-size: 100px;
+  width: 200px;
+  margin:0px 30px;
+}
+
+section#contact{
+  margin-bottom: 45px;
+  font-size: 100px;
+}
+
+section#end{
+  font-size: 100px;
+}
